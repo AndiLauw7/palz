@@ -67,13 +67,13 @@ function kethalo() {
   }).go();
 }
 
-function tombol() {
-  wallpaper.style = "transform: scale(1);";
-  Tombol.style = "opacity:1;transform: scale(1);";
-  if (fungsi == 2) {
-    By.innerHTML = "&#128140; Balas";
-  }
-}
+// function tombol() {
+//   wallpaper.style = "transform: scale(1);";
+//   Tombol.style = "opacity:1;transform: scale(1);";
+//   if (fungsi == 2) {
+//     By.innerHTML = "&#128140; Balas";
+//   }
+// }
 document.getElementById("By").onclick = function () {
   if (fungsi == 1) {
     Tombol.style = "";
